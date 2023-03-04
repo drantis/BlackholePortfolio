@@ -12,8 +12,8 @@ Technologies Used
 - Java 11
 - Spring Boot 2.5
 - PostgreSQL 13
-- React 17
-- TypeScript 4.3
+- React 18.2.0
+- TypeScript 3.0.3
 
 # Getting Started
 To get started with SwiftMart, follow these steps:
