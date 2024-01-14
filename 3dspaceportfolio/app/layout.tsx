@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Blackhole",
-  description: "Space themed blackhole portfolio website by Usman Babakura",
+  description: "Blackhole themed portfolio website by Usman Abba Babakura",
 };
 
 export default function RootLayout({
