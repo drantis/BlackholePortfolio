@@ -49,12 +49,13 @@ const HeroContent = () => {
           I&apos;m a Full Stack Software Engineer with experience in Website,
           Mobile, and Software development. Check out my projects and skills.
         </motion.p>
-        <motion.a
+        <motion.button
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          type="button"
         >
           Learn More!
-        </motion.a>
+        </motion.button>
       </div>
 
       <motion.div
