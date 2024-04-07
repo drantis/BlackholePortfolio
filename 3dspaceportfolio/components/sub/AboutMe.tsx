@@ -39,7 +39,7 @@ const AboutMe = () => {
                 href="#contact"
                 className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out"
               >
-                Let's Talk
+                Connect With Me
               </a>
             </div>
           </div>
