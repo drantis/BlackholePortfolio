@@ -1,31 +1,41 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+"use client";
+
+import React, { useEffect, useState, ReactNode } from "react";
 import Head from "next/head";
-import "./globals.css";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+interface RootLayoutProps {
+  children: ReactNode;
+}
 
-export const metadata: Metadata = {
-  title: "Blackhole",
-  description: "Blackhole themed portfolio website by Usman Abba Babakura",
-};
+const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
+  const [minWidth, setMinWidth] = useState<string>("100vw");
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+  useEffect(() => {
+    const updateWidth = () => {
+      const currentWidth = `${window.innerWidth}px`;
+      setMinWidth(currentWidth);
+    };
+
+    window.addEventListener("resize", updateWidth);
+    updateWidth();
+
+    return () => {
+      window.removeEventListener("resize", updateWidth);
+    };
+  }, []);
+
   return (
     <html lang="en">
       <Head>
-        {/* Force desktop layout */}
-        <meta name="viewport" content="width=1024" />
+        <meta name="viewport" content="width=device-width" />
       </Head>
       <body
-        className={`${inter.className} bg-[#030014] overflow-y-scroll overflow-x-hidden`}
+        className="bg-[#030014] overflow-y-scroll overflow-x-hidden"
+        style={{ minWidth }}
       >
         <StarsCanvas />
         <Navbar />
@@ -34,4 +44,6 @@ export default function RootLayout({
       </body>
     </html>
   );
-}
+};
+
+export default RootLayout;
