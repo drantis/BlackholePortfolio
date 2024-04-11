@@ -16,22 +16,28 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
 
   useEffect(() => {
     const updateWidth = () => {
-      const currentWidth = `${window.innerWidth}px`;
-      setMinWidth(currentWidth);
+      const maxWidth = Math.max(window.innerWidth, window.innerHeight) + "px";
+      setMinWidth(maxWidth);
     };
 
+    // Add event listener for window resize and orientation change
     window.addEventListener("resize", updateWidth);
+    window.addEventListener("orientationchange", updateWidth);
+
+    // Set initial width
     updateWidth();
 
+    // Cleanup listeners on component unmount
     return () => {
       window.removeEventListener("resize", updateWidth);
+      window.removeEventListener("orientationchange", updateWidth);
     };
   }, []);
 
   return (
     <html lang="en">
       <Head>
-        <meta name="viewport" content="width=device-width" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <body
         className="bg-[#030014] overflow-y-scroll overflow-x-hidden"
