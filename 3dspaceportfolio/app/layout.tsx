@@ -16,8 +16,8 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
 
   useEffect(() => {
     const updateWidth = () => {
-      const currentWidth = `${window.innerWidth}px`;
-      setMinWidth(currentWidth);
+      const maxWidth = Math.max(window.innerWidth, window.innerHeight) + "px";
+      setMinWidth(maxWidth);
     };
 
     window.addEventListener("resize", updateWidth);
