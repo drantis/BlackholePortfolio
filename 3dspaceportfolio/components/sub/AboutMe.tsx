@@ -31,9 +31,9 @@ const AboutMe = () => {
               teams can trust in production, not demos that die in a notebook.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-300">
-              I&apos;ve spent 6+ years shipping software that has to work live,
-              at scale, including agent platforms and cost controls that cut
-              LLM spend hard when it mattered.
+              Over half a decade shipping production software, including
+              systems that run live, on-air on Ross&apos;s three-time
+              Emmy-winning platforms. Python, TypeScript, Java, Go.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-400">
               When I&apos;m offline, I&apos;m usually capturing the world

@@ -31,12 +31,12 @@ const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-5xl md:text-6xl font-bold text-white max-w-[640px] w-auto h-auto"
         >
           <span>
-            Building
+            Governed
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              AI agents
-            </span>{" "}
-            that actually ship
+              agents
+            </span>
+            , LLM platforms, Emmy-winning broadcast systems
           </span>
         </motion.div>
 
@@ -44,8 +44,9 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Permissions, cost controls, hard stops. Production systems people rely
-          on. Python, TypeScript, Java, Go.
+          Over half a decade shipping production software, including systems
+          that run live, on-air on Ross&apos;s three-time Emmy-winning
+          platforms. Python, TypeScript, Java, Go.
         </motion.p>
         <div className="flex flex-row gap-4 flex-wrap">
           <motion.a
