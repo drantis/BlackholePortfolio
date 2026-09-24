@@ -23,6 +23,15 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
 
   return (
     <html lang="en">
+      <head>
+        <title>
+          Usman Babakura | Production AI on Emmy®-Winning Broadcast Systems
+        </title>
+        <meta
+          name="description"
+          content="Applied AI engineer at Ross Video. Three-time Emmy®-winning live broadcast platforms. Governed agent fleets in production."
+        />
+      </head>
       <body
         className="bg-[#030014] overflow-y-scroll overflow-x-hidden"
         style={{ minWidth }}
