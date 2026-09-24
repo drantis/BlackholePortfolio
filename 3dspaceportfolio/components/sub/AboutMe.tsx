@@ -23,23 +23,21 @@ const AboutMe = () => {
               Usman Abba Babakura
             </h2>
             <p className="mt-2 text-sm text-purple-300 text-center md:text-left">
-              AI Software Developer @ Ross Video
+              AI Software Developer
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-300">
-              I build AI agents that actually ship — tool use under real
-              permissions, cost controls, and hard stops so they don&apos;t fail
-              open or burn budget overnight. Not demos that die in a notebook.
+              I build AI agents that plan, use tools under real permissions,
+              stay cheap, and know when to quit. The goal is simple: systems
+              teams can trust in production, not demos that die in a notebook.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-300">
-              Day job: 6+ years shipping production software at Ross Video,
-              including systems that run live on Emmy-winning broadcast
-              platforms. Internally recruited onto the AI team to rescue a
-              year-stalled product integration and architect the company&apos;s
-              governed agent platform.
+              I&apos;ve spent 6+ years shipping software that has to work live,
+              at scale, including agent platforms and cost controls that cut
+              LLM spend hard when it mattered.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-400">
-              If you&apos;ve got an agent or LLM system that needs to work in
-              the real world, I&apos;m easy to reach.
+              When I&apos;m offline, I&apos;m usually capturing the world
+              through my lens.
             </p>
             <div className="mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
               <a

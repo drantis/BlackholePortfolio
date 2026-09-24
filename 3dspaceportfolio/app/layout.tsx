@@ -24,10 +24,10 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="en">
       <head>
-        <title>Usman Babakura | AI Software Developer @ Ross Video</title>
+        <title>Usman Babakura | AI Software Developer</title>
         <meta
           name="description"
-          content="AI Software Developer at Ross Video. 6+ years shipping production software — governed agents, LLM platforms, Emmy-winning broadcast systems."
+          content="AI Software Developer. I build production AI agents with permissions, cost controls, and hard stops."
         />
       </head>
       <body
