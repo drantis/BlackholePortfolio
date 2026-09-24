@@ -49,9 +49,9 @@ const HeroContent = () => {
           <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
             three-time Emmy-winning
           </span>{" "}
-          platforms. I also designed, architected, and implemented their
-          internal agentic cloud platform. Python,
-          TypeScript, Java, Go.
+          platforms. I also design, architect, and implement agentic
+          cloud platforms for enterprise corporations. Python, TypeScript,
+          Java, Go.
         </motion.p>
         <div className="flex flex-row gap-4 flex-wrap">
           <motion.a
