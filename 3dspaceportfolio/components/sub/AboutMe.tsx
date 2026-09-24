@@ -36,7 +36,8 @@ const AboutMe = () => {
               <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
                 three-time Emmy-winning
               </span>{" "}
-              platforms. I own their internal agentic cloud platform. Python,
+              platforms. I also designed, architected, and implemented their
+              internal agentic cloud platform. Python,
               TypeScript, Java, Go.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-400">
