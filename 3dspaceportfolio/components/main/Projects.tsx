@@ -24,7 +24,7 @@ const Projects = () => {
           href="https://raising-talent.vercel.app"
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
+          src="/pathfinding-shot.png"
           title="A* Pathfinding Visualizer"
           description="Python visualizer for A* pathfinding with custom obstacles and shortest-path playback."
           href="https://github.com/drantis/A-Pathfinding-Visualizer"
