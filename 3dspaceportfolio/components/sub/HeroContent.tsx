@@ -44,7 +44,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Over half a decade shipping production software, including systems
+          Over a decade shipping production software, including systems
           that run live, on-air on Ross Video&apos;s{" "}
           <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
             three-time Emmy-winning

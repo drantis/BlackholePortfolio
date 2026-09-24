@@ -31,14 +31,13 @@ const AboutMe = () => {
               teams can trust in production, not demos that die in a notebook.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-300">
-              Over half a decade shipping production software, including
-              systems that run live, on-air on Ross Video&apos;s{" "}
+              Over a decade in production software. At Ross Video I ship on{" "}
               <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-cyan-400">
                 three-time Emmy-winning
               </span>{" "}
-              platforms. I also design, architect, and implement agentic
-              cloud platforms for enterprise corporations. Python, TypeScript,
-              Java, Go.
+              live broadcast platforms. Outside that, I design, architect, and
+              implement agentic cloud platforms for enterprise corporations.
+              Stack: Python, TypeScript, Java, Go.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-400">
               When I&apos;m offline, I&apos;m usually capturing the world

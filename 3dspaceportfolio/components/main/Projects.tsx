@@ -63,10 +63,10 @@ const Projects = () => {
       id="projects"
     >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-10">
-        My Projects
+        Selected work
       </h1>
       <p className="mb-12 max-w-2xl px-6 text-center text-gray-400">
-        Production-shaped builds — AI products, agent systems, and systems work.
+        Production-shaped builds. AI products, agent systems, and systems work.
       </p>
       <div className="grid w-full max-w-6xl grid-cols-1 gap-8 px-6 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((p) => (
