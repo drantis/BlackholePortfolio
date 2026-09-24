@@ -12,15 +12,15 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
+          src="/notehire-shot.png"
           title="NoteHire"
-          description="TypeScript product for hiring and notes workflows. Production UI on Vercel."
+          description="AI interview notes for recruiters. Structured summaries and scorecards from recordings in about 30 seconds."
           href="https://note-hire.vercel.app"
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Raising Talent"
-          description="TypeScript web app for talent pipelines. Live product surface on Vercel."
+          src="/raising-talent-shot.png"
+          title="Raising Talents"
+          description="Talent discovery platform connecting creators with agents. Profiles, matching, and messaging."
           href="https://raising-talent.vercel.app"
         />
         <ProjectCard
