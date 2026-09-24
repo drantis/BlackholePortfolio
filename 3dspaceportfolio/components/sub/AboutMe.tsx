@@ -23,7 +23,7 @@ const AboutMe = () => {
               Usman Abba Babakura
             </h2>
             <p className="mt-2 text-sm text-purple-300 text-center md:text-left">
-              Applied AI · Full-stack · Ross Video
+              Applied AI Engineer · Ross Video
             </p>
             <p className="mt-4 text-base leading-relaxed text-gray-300">
               I&apos;ve spent 6+ years shipping production software at Ross
