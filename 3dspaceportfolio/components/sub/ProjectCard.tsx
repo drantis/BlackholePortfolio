@@ -32,7 +32,7 @@ const ProjectCard = ({ src, title, description, href }: Props) => {
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] block hover:border-purple-500/60 transition-colors"
+        className="relative z-10 overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] block hover:border-purple-500/60 transition-colors cursor-pointer"
       >
         {body}
       </a>

@@ -1,25 +1,7 @@
 export const Skill_data = [
   {
-    skill_name: "Html 5",
-    Image: "/html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Css",
-    Image: "/css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Java Script",
-    Image: "/js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind Css",
-    Image: "/tailwind.png",
+    skill_name: "Type Script",
+    Image: "/ts.png",
     width: 80,
     height: 80,
   },
@@ -30,38 +12,8 @@ export const Skill_data = [
     height: 80,
   },
   {
-    skill_name: "Redux",
-    Image: "/redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    Image: "/reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Type Script",
-    Image: "/ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next js 13",
+    skill_name: "Next js",
     Image: "/next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Framer Motion",
-    Image: "/framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe Payment",
-    Image: "/stripe.webp",
     width: 80,
     height: 80,
   },
@@ -72,10 +24,28 @@ export const Skill_data = [
     height: 80,
   },
   {
+    skill_name: "Docker",
+    Image: "/docker.webp",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Go",
+    Image: "/go.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "PostgreSQL",
+    Image: "/postger.png",
+    width: 70,
+    height: 70,
+  },
+  {
     skill_name: "Mongo db",
     Image: "/mongodb.png",
-    width: 40,
-    height: 40,
+    width: 50,
+    height: 50,
   },
 ];
 
@@ -94,16 +64,11 @@ export const Socials = [
   },
 ];
 
+/** Career stack rows — icons we already ship in /public */
 export const Frontend_skill = [
   {
-    skill_name: "Html 5",
-    Image: "/html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Css",
-    Image: "/css.png",
+    skill_name: "Type Script",
+    Image: "/ts.png",
     width: 80,
     height: 80,
   },
@@ -112,18 +77,6 @@ export const Frontend_skill = [
     Image: "/js.png",
     width: 65,
     height: 65,
-  },
-  {
-    skill_name: "Tailwind Css",
-    Image: "/tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Material UI",
-    Image: "/mui.png",
-    width: 80,
-    height: 80,
   },
   {
     skill_name: "React",
@@ -138,20 +91,14 @@ export const Frontend_skill = [
     height: 80,
   },
   {
-    skill_name: "React Query",
-    Image: "/reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Type Script",
-    Image: "/ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next js 13",
+    skill_name: "Next js",
     Image: "/next.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Tailwind Css",
+    Image: "/tailwind.png",
     width: 80,
     height: 80,
   },
@@ -171,19 +118,13 @@ export const Backend_skill = [
     height: 80,
   },
   {
-    skill_name: "Mongo db",
-    Image: "/mongodb.png",
-    width: 40,
-    height: 40,
+    skill_name: "Go",
+    Image: "/go.png",
+    width: 60,
+    height: 60,
   },
   {
-    skill_name: "Fire base",
-    Image: "/Firebase.png",
-    width: 55,
-    height: 55,
-  },
-  {
-    skill_name: "Postger SQL",
+    skill_name: "PostgreSQL",
     Image: "/postger.png",
     width: 70,
     height: 70,
@@ -195,10 +136,10 @@ export const Backend_skill = [
     height: 70,
   },
   {
-    skill_name: "Prisma",
-    Image: "/prisma.webp",
-    width: 70,
-    height: 70,
+    skill_name: "Mongo db",
+    Image: "/mongodb.png",
+    width: 40,
+    height: 40,
   },
   {
     skill_name: "Graphql",
@@ -210,29 +151,22 @@ export const Backend_skill = [
 
 export const Full_stack = [
   {
-    skill_name: "React Native",
-    Image: "/ReactNative .png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Tauri",
-    Image: "/tauri.svg",
-    width: 70,
-    height: 70,
-  },
-  {
     skill_name: "Docker",
     Image: "/docker.webp",
     width: 70,
     height: 70,
   },
-
   {
-    skill_name: "Figma",
-    Image: "/figma.png",
-    width: 50,
-    height: 50,
+    skill_name: "Git",
+    Image: "/gitwhite.png",
+    width: 70,
+    height: 70,
+  },
+  {
+    skill_name: "Framer Motion",
+    Image: "/framer.png",
+    width: 70,
+    height: 70,
   },
 ];
 
@@ -242,5 +176,24 @@ export const Other_skill = [
     Image: "/go.png",
     width: 60,
     height: 60,
+  },
+];
+
+/** Text labels for AI / Java / Python (no dedicated icon assets yet) */
+export const Career_skill_labels = [
+  {
+    title: "AI / LLM",
+    items:
+      "Agent platforms · tool-calling · OpenAI / Anthropic · prompt caching · RAG-shaped pipelines · MCP · Hermes · Bifrost / LiteLLM · eval & honesty gates",
+  },
+  {
+    title: "Backend",
+    items:
+      "Python (FastAPI, SQLAlchemy, asyncio) · Java (Jersey, Hibernate, Spring, OSGi) · Go · REST / microservices",
+  },
+  {
+    title: "Architecture",
+    items:
+      "Fail-closed agents · multi-tenant isolation · hexagonal / DDD · event-driven · Docker fleets · CI/CD",
   },
 ];
