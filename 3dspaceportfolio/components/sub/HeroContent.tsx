@@ -24,21 +24,21 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Applied AI · Full-Stack Engineer
+            Software Developer — AI @ Ross Video
           </h1>
         </motion.div>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-5xl md:text-6xl font-bold text-white max-w-[640px] w-auto h-auto"
         >
           <span>
-            Production
+            Governed
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              agents{" "}
+              agents
             </span>
-            and platforms
+            , LLM platforms, Emmy-winning systems
           </span>
         </motion.div>
 
@@ -46,17 +46,25 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          6+ years shipping production software — including live broadcast
-          systems at Ross Video and governed multi-tenant AI agent platforms.
-          Python, TypeScript, Java, Go.
+          6+ years shipping production software — live broadcast platforms and
+          multi-tenant AI agent fleets. Python, TypeScript, Java, Go.
         </motion.p>
-        <motion.a
-          variants={slideInFromLeft(1)}
-          href="#projects"
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          See projects
-        </motion.a>
+        <div className="flex flex-row gap-4 flex-wrap">
+          <motion.a
+            variants={slideInFromLeft(1)}
+            href="#projects"
+            className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] px-4"
+          >
+            See projects
+          </motion.a>
+          <motion.a
+            variants={slideInFromLeft(1.2)}
+            href="mailto:drantis@live.com"
+            className="py-2 text-center text-gray-300 cursor-pointer rounded-lg max-w-[200px] px-4 border border-[#7042f861] hover:border-purple-500/60 transition-colors"
+          >
+            Contact
+          </motion.a>
+        </div>
       </div>
 
       <motion.div
