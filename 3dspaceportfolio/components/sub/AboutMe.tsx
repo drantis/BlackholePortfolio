@@ -23,30 +23,26 @@ const AboutMe = () => {
               Usman Abba Babakura
             </h2>
             <p className="mt-2 text-sm text-purple-300 text-center md:text-left">
-              AI Software Developer · Ross Video
+              AI Software Developer @ Ross Video
             </p>
             <p className="mt-4 text-base leading-relaxed text-gray-300">
-              I&apos;ve spent 6+ years shipping production software at Ross
-              Video — including the company&apos;s{" "}
-              <span className="text-white font-semibold">
-                three-time Emmy®-winning
-              </span>{" "}
-              broadcast platforms that run live, on-air for the biggest networks
-              on earth: ABC, NBC, Fox News, Disney&apos;s ESPN, Sky News, CTV /
-              Bell Media, Gray Television, and more. 10,000+ customers. 200+
-              countries. That&apos;s the bar I build to.
+              Applied AI / full-stack engineer at Ross Video. 6+ years shipping
+              production software — including systems that run live, on-air on
+              Ross&apos;s three-time Emmy-winning platforms (10,000+ customers
+              across 200+ countries: ABC, NBC, Fox News, CTV / Bell Media, Sky
+              News, Disney&apos;s ESPN, Gray Television, and more).
             </p>
             <p className="mt-4 text-base leading-relaxed text-gray-300">
-              In 2026 I was internally recruited onto Ross&apos;s AI team to
-              rescue a year-stalled product integration, then to architect the
-              company&apos;s governed autonomous-agent platform from the ground
-              up.
+              Internally recruited onto Ross&apos;s AI team (Jan 2026) to rescue
+              a year-stalled product integration, then to architect the
+              company&apos;s governed autonomous-agent platform.
             </p>
             <p className="mt-4 text-base leading-relaxed text-gray-300">
               Today I own Cerberus (evolved from Mercury): a multi-tenant,
               fail-closed agent fleet — Hermes runtime, tool governance,
               Bifrost model proxy, cost anomaly auto-block — used by real
-              product teams. Prompt caching cut ~70–80% of fresh input tokens.
+              product teams to turn behavioural scenarios into deterministic
+              tests. Prompt caching cut ~70–80% of fresh input tokens.
             </p>
             <p className="mt-4 text-base leading-relaxed text-gray-300">
               Earlier in 2026: shipped the Scriptor × OverDrive integration as

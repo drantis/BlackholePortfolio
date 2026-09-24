@@ -24,32 +24,31 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Ross Video · Three-time Emmy®-winning platforms
+            AI Software Developer @ Ross Video
           </h1>
         </motion.div>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-5xl md:text-6xl font-bold text-white max-w-[680px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-5xl md:text-6xl font-bold text-white max-w-[640px] w-auto h-auto"
         >
           <span>
-            I build AI that ships on
+            Governed
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              Emmy®-winning
-            </span>{" "}
-            live broadcast systems
+              agents
+            </span>
+            , LLM platforms, Emmy-winning broadcast systems
           </span>
         </motion.div>
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-300 my-5 max-w-[620px] leading-relaxed"
+          className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          6+ years at Ross Video. The platforms I work on run live for ABC, NBC,
-          Fox News, ESPN, Sky News, CTV / Bell Media, and thousands more —
-          across 200+ countries. Recruited onto the AI team to own governed
-          agent fleets in production. Not demos. Real on-air software.
+          6+ years shipping production software — including systems that run
+          live, on-air on Ross&apos;s three-time Emmy-winning platforms.
+          Python, TypeScript, Java, Go.
         </motion.p>
         <div className="flex flex-row gap-4 flex-wrap">
           <motion.a
