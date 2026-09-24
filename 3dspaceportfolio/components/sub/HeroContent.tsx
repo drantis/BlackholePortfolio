@@ -45,8 +45,9 @@ const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
           Over half a decade shipping production software, including systems
-          that run live, on-air on Ross&apos;s three-time Emmy-winning
-          platforms. Python, TypeScript, Java, Go.
+          that run live, on-air on Ross Video&apos;s three-time Emmy-winning
+          platforms. I own their internal agentic cloud platform. Python,
+          TypeScript, Java, Go.
         </motion.p>
         <div className="flex flex-row gap-4 flex-wrap">
           <motion.a

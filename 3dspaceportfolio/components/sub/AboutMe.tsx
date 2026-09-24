@@ -32,8 +32,9 @@ const AboutMe = () => {
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-300">
               Over half a decade shipping production software, including
-              systems that run live, on-air on Ross&apos;s three-time
-              Emmy-winning platforms. Python, TypeScript, Java, Go.
+              systems that run live, on-air on Ross Video&apos;s three-time
+              Emmy-winning platforms. I own their internal agentic cloud
+              platform. Python, TypeScript, Java, Go.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-gray-400">
               When I&apos;m offline, I&apos;m usually capturing the world
