@@ -25,33 +25,21 @@ const AboutMe = () => {
             <p className="mt-2 text-sm text-purple-300 text-center md:text-left">
               AI Software Developer @ Ross Video
             </p>
-            <p className="mt-4 text-base leading-relaxed text-gray-300">
-              Applied AI / full-stack engineer at Ross Video. 6+ years shipping
-              production software — including systems that run live, on-air on
-              Ross&apos;s three-time Emmy-winning platforms (10,000+ customers
-              across 200+ countries: ABC, NBC, Fox News, CTV / Bell Media, Sky
-              News, Disney&apos;s ESPN, Gray Television, and more).
+            <p className="mt-4 text-lg leading-relaxed text-gray-300">
+              I build AI agents that actually ship — tool use under real
+              permissions, cost controls, and hard stops so they don&apos;t fail
+              open or burn budget overnight. Not demos that die in a notebook.
             </p>
-            <p className="mt-4 text-base leading-relaxed text-gray-300">
-              Internally recruited onto Ross&apos;s AI team (Jan 2026) to rescue
-              a year-stalled product integration, then to architect the
-              company&apos;s governed autonomous-agent platform.
+            <p className="mt-4 text-lg leading-relaxed text-gray-300">
+              Day job: 6+ years shipping production software at Ross Video,
+              including systems that run live on Emmy-winning broadcast
+              platforms. Internally recruited onto the AI team to rescue a
+              year-stalled product integration and architect the company&apos;s
+              governed agent platform.
             </p>
-            <p className="mt-4 text-base leading-relaxed text-gray-300">
-              Today I own Cerberus (evolved from Mercury): a multi-tenant,
-              fail-closed agent fleet — Hermes runtime, tool governance,
-              Bifrost model proxy, cost anomaly auto-block — used by real
-              product teams to turn behavioural scenarios into deterministic
-              tests. Prompt caching cut ~70–80% of fresh input tokens.
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-gray-300">
-              Earlier in 2026: shipped the Scriptor × OverDrive integration as
-              the NAB 2026 MVP, and personally delivered internal product demos
-              to network buyers including NBC and CTV / Bell Media.
-            </p>
-            <p className="mt-4 text-base leading-relaxed text-gray-400">
-              Stack: Python, Java, TypeScript, Go. Promoted twice. Designated AI
-              champion; selected to represent Ross at the OpenAI hackathon.
+            <p className="mt-4 text-lg leading-relaxed text-gray-400">
+              If you&apos;ve got an agent or LLM system that needs to work in
+              the real world, I&apos;m easy to reach.
             </p>
             <div className="mt-8 flex flex-wrap gap-3 justify-center md:justify-start">
               <a
