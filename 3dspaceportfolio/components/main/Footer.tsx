@@ -20,10 +20,15 @@ const Footer = () => {
               <FaYoutube />
               <span className="text-[15px] ml-[6px]">Youtube</span>
             </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
+            <a
+              href="https://github.com/drantis"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex flex-row items-center my-[15px] cursor-pointer"
+            >
               <RxGithubLogo />
               <span className="text-[15px] ml-[6px]">Github</span>
-            </p>
+            </a>
             <p className="flex flex-row items-center my-[15px] cursor-pointer">
               <RxDiscordLogo />
               <span className="text-[15px] ml-[6px]">Discord</span>
