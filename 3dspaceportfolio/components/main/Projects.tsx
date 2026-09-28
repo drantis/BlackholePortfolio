@@ -6,7 +6,7 @@ const projects = [
     src: "/drexion-shot.png",
     title: "Drexion Dynamics",
     description:
-      "Client holding-group site (Lagos) across mobility, real estate, and agriculture — live farm-gate lane (list / request / track / admin) plus on-site intake assistant. Demo assistant runs on Gemini free tier; intake routing is the engineering, model quality is the ceiling.",
+      "Client holding-group site for Drexion Dynamics Ltd. (Lagos) — mobility, real estate, and agriculture. Live farm-gate commerce (list / request / track / admin), refreshed agri visuals, and an on-site intake assistant. Demo assistant on Gemini free tier; intake routing is the engineering, model quality is the ceiling.",
     href: "https://drexiondynamics.vercel.app",
     tags: ["Next.js", "TypeScript", "Prisma", "Postgres", "Gemini"],
     live: true,

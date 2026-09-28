@@ -4,57 +4,57 @@ import { RxGithubLogo, RxLinkedinLogo } from "react-icons/rx";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
+    <div className="fixed top-0 z-50 h-[65px] w-full max-w-[100vw] bg-[#03001417] px-3 shadow-lg shadow-[#2A0E61]/50 backdrop-blur-md sm:px-6 md:px-10">
+      <div className="mx-auto flex h-full w-full max-w-7xl flex-row items-center justify-between gap-2">
         <a
           href="#about-me"
-          className="h-auto w-auto flex flex-row items-center"
+          className="flex min-w-0 flex-row items-center"
         >
           <Image
-            src="/NavLogo3.png"
-            alt="logo"
-            width={70}
-            height={70}
-            className="cursor-pointer hover:animate-slowspin"
+            src="/ub-logo.png"
+            alt="Usman Babakura"
+            width={44}
+            height={44}
+            className="h-10 w-10 shrink-0 cursor-pointer object-contain sm:h-11 sm:w-11"
+            priority
           />
-
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
+          <span className="ml-2 hidden truncate font-bold text-gray-300 lg:block">
             Usman Abba Babakura
           </span>
         </a>
 
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer hover:text-white">
-              About me
+        <div className="mx-1 min-w-0 flex-1 justify-center sm:mx-3 md:flex md:max-w-md">
+          <div className="flex w-full items-center justify-between gap-2 overflow-x-auto rounded-full border border-[#7042f861] bg-[#0300145e] px-3 py-2 text-[11px] text-gray-200 no-scrollbar sm:gap-4 sm:px-5 sm:text-sm md:text-[15px]">
+            <a href="#about-me" className="shrink-0 cursor-pointer hover:text-white">
+              About
             </a>
-            <a href="#skills" className="cursor-pointer hover:text-white">
+            <a href="#skills" className="shrink-0 cursor-pointer hover:text-white">
               Skills
             </a>
-            <a href="#projects" className="cursor-pointer hover:text-white">
+            <a href="#projects" className="shrink-0 cursor-pointer hover:text-white">
               Projects
             </a>
           </div>
         </div>
 
-        <div className="flex flex-row gap-4 items-center">
+        <div className="flex shrink-0 flex-row items-center gap-3 sm:gap-4">
           <a
             href="https://github.com/drantis"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub"
-            className="text-gray-300 hover:text-white transition-colors"
+            className="text-gray-300 transition-colors hover:text-white"
           >
-            <RxGithubLogo className="text-2xl" />
+            <RxGithubLogo className="text-xl sm:text-2xl" />
           </a>
           <a
             href="https://www.linkedin.com/in/usman-babakura-55329817a/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="LinkedIn"
-            className="text-gray-300 hover:text-white transition-colors"
+            className="text-gray-300 transition-colors hover:text-white"
           >
-            <RxLinkedinLogo className="text-2xl" />
+            <RxLinkedinLogo className="text-xl sm:text-2xl" />
           </a>
         </div>
       </div>

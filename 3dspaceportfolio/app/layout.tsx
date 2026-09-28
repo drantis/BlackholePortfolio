@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState, ReactNode } from "react";
+import React, { ReactNode } from "react";
 import StarsCanvas from "@/components/main/StarBackground";
 import Navbar from "@/components/main/Navbar";
 import Footer from "@/components/main/Footer";
@@ -11,16 +11,6 @@ interface RootLayoutProps {
 }
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
-  const [minWidth, setMinWidth] = useState<string>("100vw");
-
-  useEffect(() => {
-    const updateWidth = () => {
-      const maxWidth = Math.max(window.innerWidth, window.innerHeight) + "px";
-      setMinWidth(maxWidth);
-    };
-    updateWidth();
-  }, []);
-
   return (
     <html lang="en">
       <head>
@@ -29,11 +19,14 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
           name="description"
           content="AI Software Developer. I build production AI agents with permissions, cost controls, and hard stops."
         />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, viewport-fit=cover"
+        />
+        <link rel="icon" href="/favicon-ub.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/ub-logo.png" />
       </head>
-      <body
-        className="bg-[#030014] overflow-y-scroll overflow-x-hidden"
-        style={{ minWidth }}
-      >
+      <body className="bg-[#030014] overflow-y-auto overflow-x-hidden max-w-[100vw]">
         <StarsCanvas />
         <Navbar />
         {children}
